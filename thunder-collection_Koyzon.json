@@ -1,0 +1,105 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Koyzon",
+    "collectionId": "d0302a48-7c59-4208-ab0d-49fea0512a1a",
+    "dateExported": "2024-08-15T23:57:31.057Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "777e9de4-5e6b-4039-8546-7210fca122bc",
+            "colId": "d0302a48-7c59-4208-ab0d-49fea0512a1a",
+            "containerId": "",
+            "name": "Ping",
+            "url": "http://localhost:8000/api/ping",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2024-08-10T17:42:47.433Z",
+            "modified": "2024-08-10T18:49:31.786Z",
+            "headers": []
+        },
+        {
+            "_id": "129729df-45d9-4f6c-869c-aab9334cea21",
+            "colId": "d0302a48-7c59-4208-ab0d-49fea0512a1a",
+            "containerId": "",
+            "name": "Create Task",
+            "url": "http://localhost:8000/api/tasks",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-10T17:42:47.431Z",
+            "modified": "2024-08-11T14:50:40.995Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"Busat Izx like the Arxzxc Mutex deal\",\n    \"content\": \"Tomorroasw save this to json, read on start.\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2481472c-4205-4c29-b0f9-ad99aba3c22f",
+            "colId": "d0302a48-7c59-4208-ab0d-49fea0512a1a",
+            "containerId": "",
+            "name": "Get All  Tasks",
+            "url": "http://localhost:8000/api/tasks?page=1&limit=10",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-08-10T17:42:47.436Z",
+            "modified": "2024-08-10T18:53:22.155Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "10",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "14725a1f-709f-4b47-913c-fe42c4016226",
+            "colId": "d0302a48-7c59-4208-ab0d-49fea0512a1a",
+            "containerId": "",
+            "name": "Get  Task",
+            "url": "http://localhost:8000/api/tasks/368d2bf1-fa80-4ca6-bfbe-2b29bb8ffb30",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-10T17:42:47.432Z",
+            "modified": "2024-08-11T14:41:03.880Z",
+            "headers": []
+        },
+        {
+            "_id": "302143eb-0c02-4ddf-bb61-1c34cd60faef",
+            "colId": "d0302a48-7c59-4208-ab0d-49fea0512a1a",
+            "containerId": "",
+            "name": "Update  Task",
+            "url": "http://localhost:8000/api/tasks/24de5130-ae59-4c61-b613-019800870170",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2024-08-10T17:42:47.434Z",
+            "modified": "2024-08-15T23:57:19.280Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"Updated My first 1 demo post always\",\n    \"content\": \"Hello\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e41804d9-1a09-4a5b-bf54-eb3a68a6d7a3",
+            "colId": "d0302a48-7c59-4208-ab0d-49fea0512a1a",
+            "containerId": "",
+            "name": "Delete  Task",
+            "url": "http://localhost:8000/api/tasks/null",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-08-10T17:42:47.435Z",
+            "modified": "2024-08-15T23:57:23.082Z",
+            "headers": []
+        }
+    ],
+    "ref": "da8RAwqMFXUprIls3Yp2ghH7hkxYpCCxUIHeAaPM7kdJpuXsIZkVnMbg_4LEaK5AkZIUprGWju4MiPTc2a35SA"
+}
