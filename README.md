@@ -3,7 +3,7 @@
 
 #### Warp is straightfoward except for the filter deal.  
 If you open this in VSCode ( and I am sure other IDE's...) the repeated <AND<AND<AND business
-can be intimidating but it's simple chained .and or .map() or .or()...  Turn of...  hints?  to hide them.  Will update with specifics when I get back here because it is anoying AF.
+can be intimidating but it's simple chained .and or .map() or .or()...  Turn of Inlay Hints Type Hints  to hide them.  Will update with specifics when I get back here because it is anoying AF.
 
 - cargo install
 - cargo install cargo-watch  

@@ -21,6 +21,7 @@ pub struct UpdateSchema {
 }
 
 pub type DB = Arc<Mutex<Vec<Task>>>;
+
 pub fn koyzon_db() -> DB {
     Arc::new(Mutex::new(Vec::new()))
 }
